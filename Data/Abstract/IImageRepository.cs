@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Abstract
 {
-    public interface IProductRepository:IRepository<Product>
+    public interface IImageRepository:IRepository<Image>
     {
     }
 }

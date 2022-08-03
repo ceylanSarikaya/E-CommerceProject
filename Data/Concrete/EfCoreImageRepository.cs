@@ -6,10 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Data.Concrete
 {
-    public class EfCoreCategoryRepository:EfCoreGenericRepository<Category, ECommerceDbContext>,ICategoryRepository
+    public class EfCoreImageRepository:EfCoreGenericRepository<Image,ECommerceDbContext>,IImageRepository
     {
     }
 }
